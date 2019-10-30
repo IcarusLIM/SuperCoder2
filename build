@@ -1,0 +1,2 @@
+#!/bin/bash
+javac -d out/ src/coder/*.java src/coder/domain/*.java src/coder/prefix/*.java src/coder/utils/*.java src/coder/utils/sort/*.java src/coder/utils/io/*.java

@@ -1,0 +1,2 @@
+#!/bin/bash
+cd out && java -Xms5000m -Xmx13g coder.Main "$@"
