@@ -1,6 +1,6 @@
 # Super Coder 超级码力
 
-Sogou公司内部第二届超级码力编程比赛，最终成绩排名12，Java语言实现排名1
+Sogou公司内部第二届超级码力编程比赛，最终成绩排名12，Java实现排名1
 
 [问题描述](https://github.com/Ghamster0/SuperCoder2/blob/master/Problem.md)
 
