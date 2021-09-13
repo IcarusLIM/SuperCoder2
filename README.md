@@ -25,7 +25,7 @@ Sogou公司内部第二届超级码力编程比赛，最终成绩case5 2025秒�
 - 当数组大小到达1亿数量级，排序耗时将非常可观，以domain规则为例，单线程排序大概需要耗时一分钟左右，多线程排序可以控制在15s以内
 - 这里参考`java.util.DualPivotQuicksort`和`java.util.ArraysParallelSortHelpers`做了两个long一组的多线程排序实现。`parallelSort`使用了`Fork/Join`框架，该框架是`work-stealing`算法的实现
 
-### 创建快表
+### 创建索引
 
 哈希后的规则使用两个long存储，理论上数值应当在`Long.MIN_VALUE~Long.MAX_VALUE`间均匀分布的。取前k位，则有：
 ```
